@@ -1,0 +1,14 @@
+.table{
+    overflow-x: auto;
+}
+@media (max-width: 768px) {
+    .table__cart{
+        min-width: 900px;
+        max-width: 700px;
+    }
+}
+.image__cart{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
